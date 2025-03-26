@@ -1,0 +1,24 @@
+apple_prompt = ["What was the percentage increase in Apple Inc.'s stock price from September 2019 to September 2024?", #tabe
+                "What are the two material performance obligations in Apple’s sales arrangements?",
+                'When was the €1,000,000,000 aggregate principal amount of the 0.000% 2025 Notes issued?',
+                "What is the pre-clearance process for Designated Individuals trading Apple securities?",
+                "Why can’t the Company’s internal controls provide absolute assurance against errors or fraud?",
+                'Who determines the Comparable Government Bond for the 3.050% 2029 and 2042 Notes, and what criteria are used?',
+                'What is the role of The Bank of New York Mellon Trust Company, N.A. in relation to the Indentures',
+                "What is the typical duration covered by the Company's manufacturing purchase obligations for components and production?",
+                "How many shares were repurchased in September 2024 alone?", #table
+                'List all iPhone models announced by Apple in fiscal year 2024.'
+                ]
+                
+apple_answers = ['The stock price increased by 330% (from 100 to 430).',
+              '1) Hardware + bundled software, 2) Right to bundled services (iCloud, Siri, Maps)',
+                 'November 15, 2019',
+                 'Submit request 2 days prior, await notice, and confirm no insider information exists.',
+                 'Due to resource constraints, inherent system limitations, and future business changes',
+                 'An independent investment bank chooses a UK bond with nearest maturity (or consults experts if none exists).',
+                 'The Bank of New York Mellon Trust Company, N.A. serves as the trustee under the Indentures.',
+                 "The Company's manufacturing purchase obligations typically cover periods up to 150 days.",
+                 '33,653,000 (33,653 in table × 1,000)',
+                 'iPhone 16, iPhone 16 Plus, iPhone 16 Pro, iPhone 16 Pro Max (Q4)']
+                 
+apple_pages = [23, 38, 63, 112, 54, 68, 74,12, 22, 24]
