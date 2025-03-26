@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from src.pdf_rag_pipeline import PDFRAGPipeline
 from src.llm_pipeline import LLMPipeline
 from src.telegram_rag_bot import TelegramRAGBot
