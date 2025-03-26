@@ -7,3 +7,4 @@ nltk
 python-telegram-bot==13.15
 numpy==1.24.4
 rouge_score
+torch==2.4.1
