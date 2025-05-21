@@ -32,6 +32,9 @@ for v in [QDRANT_URL, QDRANT_API_KEY, HF_TOKEN, TG_TOKEN]:
         raise RuntimeError("Missing ENV vars")
 
 app = FastAPI()
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
 bot = Bot(token=TG_TOKEN, defaults=Defaults(parse_mode="HTML"))
 dispatcher = Dispatcher(bot, None, workers=0, use_context=True)
 qdrant = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY, prefer_grpc=False)
