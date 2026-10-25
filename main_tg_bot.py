@@ -20,7 +20,7 @@ def main():
     llm_pipeline = LLMPipeline(model_name="google/flan-t5-base", max_length=200, do_sample=False)
 
     # Запускаем Telegram-бота
-    token = "7977851701:AAEbQ7K6_OOTos_F_zyLlZYUSJ8TzyJKB6w"
+    token = ...
     bot = TelegramRAGBot(token, retrieval_pipeline, llm_pipeline, stats_path, qa_log_path)
     bot.run()
 
